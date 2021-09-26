@@ -1,5 +1,5 @@
 # HP8300-Monterey-beta
-HP8300 Monterey beta
+HP8300 Monterey beta 7
  HP 8300/i3 3225 HD4000/4Gb RAM/SSD 128Gb OpenCore 0.7.4 Bootloader
 
 Tested models:
