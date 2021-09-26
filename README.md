@@ -19,7 +19,6 @@ What doesn't work:
 
 SMBIOS: Mac mini7,1
 To change the SMBIOS go to EFI/OC/Config.plist > PlatformInfo > Generic > SystemProductName Refer to SMBIOS Choices to pick the correct SMBIOS choice that fits your needs.
-
-Power Management
-The included EFI/OC/ACPI/SSDT-EC.aml, SSDT-HPET, SSDT-PLUG Intel Core i3-3225 CPU which is the one that my HP Desktop does have. If you have same CPU model on your HP machine, you are good to go, nothing is needed to be done.
-If you have different CPU, make your own
+Drivers: Hfsplus.efi Openruntime.efi
+Kext: Lilu, Whatevergreen, AppleALC, IntelMausi, USBinjectall, VirtualSMC
+ACPI: SSDT-EC.aml, SSDT-HPET, SSDT-PLUG Intel Core i3-3225 CPU which is the one that my HP Desktop does have. If you have same CPU model on your HP machine, you are good to go, nothing is needed to be done. If you have different CPU, make your own with ssdtPRgen and SSDTtime
