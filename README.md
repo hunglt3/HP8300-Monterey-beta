@@ -23,3 +23,5 @@ To change the SMBIOS go to EFI/OC/Config.plist > PlatformInfo > Generic > System
 Power Management
 The included EFI/OC/ACPI/SSDT-EC.aml, SSDT-HPET, SSDT-PLUG Intel Core i3-3225 CPU which is the one that my HP Desktop does have. If you have same CPU model on your HP machine, you are good to go, nothing is needed to be done.
 If you have different CPU, make your own
+
+After install, patch Intel HD4000 by Chris1111 here https://github.com/chris1111/Patch-HD4000-Monterey
